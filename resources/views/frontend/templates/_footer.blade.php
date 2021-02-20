@@ -64,18 +64,17 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-link mt-45">
-                        <h4 class="footer-title">Contact Info</h4>
+                        <h4 class="footer-title">IT Developer</h4>
                         <ul class="link-list">
                             <li>
-                                <p>245, New Town, Marklen Street North City, New York, USA</p>
+                                <p>Syukri Yanto, S.Kom</p>
                             </li>
                             <li>
-                                <p><a href="tel:+01254659874">+01254 659 874 </a></p>
-                                <p><a href="tel:+32145857458">+32145 857 458</a></p>
+                                <p><a href="tel:+01254659874">+62 8126 658 3335 </a></p>
                             </li>
                             <li>
-                                <p><a href="mailto://info@example.com">info@example.com</a></p>
-                                <p><a href="#">www.example.com</a></p>
+                                <p><a href="mailto://info@example.com">syukriyantorj@gmail.com</a></p>
+                                <p><a href="https://udawak.com">www.udawak.com</a></p>
                             </li>
                         </ul>
                     </div>
@@ -105,7 +104,7 @@
     <div class="footer-copyright">
         <div class="container">
             <div class="copyright text-center">
-                <p>&copy; Copyright all right reserved by <a href="https://udawak.com/">udawak.com</a></p>
+                <p>&copy; Created by <a href="https://udawak.com/">udawak.com</a></p>
             </div>
         </div>
     </div>

@@ -41,7 +41,8 @@
                                     <li><a href="event-details.html">Sejarah Singkat</a></li>
                                     <li><a href="event-details.html">Sejarah Pembangunan</a></li>
                                     <li><a href="event-details.html">Profil Pimpinan</a></li>
-                                    <li><a href="event-details.html">Profil Pendidik/Tenaga Kependidikan</a></li>
+                                    <li><a href="#">Pendidik</a></li>
+                                    <li><a href="event-details.html">Tenaga Kependidikan</a></li>
                                     <li><a href="event-details.html">Struktur Organisasi</a></li>
                                     <li><a href="event-details.html">Keuangan</a></li>
                                     <li><a href="event-details.html">Makna Logo</a></li>

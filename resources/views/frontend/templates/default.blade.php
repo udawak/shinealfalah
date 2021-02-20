@@ -6,28 +6,28 @@
 </head>
 
 <body>
-    
+
     <!--====== Header Start ======-->
 
-    @include('frontend.templates._header')
+    @yield('header')
 
     <!--====== Header Ends ======-->
-    
+
     <!--====== Slider Start ======-->
 
-    @include('frontend.templates._slider')
-    {{-- @yield('slider') --}} <!--====== Nantik akan dijadikan yield ======-->
+    {{-- @include('frontend.templates._slider') --}}
+    @yield('page_banner')
 
     <!--====== Slider Ends ======-->
-    
+
     <!--====== Contents ======-->
     @yield('content')
     <!--====== Contents Ends ======-->
-    
-    
+
+
     <!--====== Footer Start ======-->
     <!--====== Newsletter Start ======-->
-    
+
     @include('frontend.templates._footer')
 
     <!--====== Newsletter Ends ======-->
@@ -38,7 +38,7 @@
     <a href="#" class="back-to-top"><i class="fal fa-chevron-up"></i></a>
 
     <!--====== BACK TOP TOP PART ENDS ======-->
-    
+
     <!--====== Start ======-->
 
 <!--
@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-">
-                    
+
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
     <!--====== Jquery js ======-->
     @include('frontend.templates._js')
 
-    
+
 </body>
 
 </html>

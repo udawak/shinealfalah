@@ -9,9 +9,12 @@
 @endsection
 
 @section('page_banner')
-    @include('frontend.templates._slider')
+@section('banner_title')
+    Data Tenaga Pendidik
+@endsection
+    @include('frontend.templates._banner')
 @endsection
 
 @section('content')
-    <h3>tesss</h3>
+    <h3>Pendidik</h3>
 @endsection

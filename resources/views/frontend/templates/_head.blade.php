@@ -1,16 +1,16 @@
     <meta charset="utf-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    
+
     <!--====== Title ======-->
-    <title>Edumate Education HTML Template</title>
-    
+    <title>@yield('title')</title>
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
-    
-        
+
+
     <!-- CSS
     ============================================ -->
 

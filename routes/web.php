@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.homepage');
 });
+
+Route::get('/pendidik', function () {
+    return view('frontend.profil.pendidik');
+});
