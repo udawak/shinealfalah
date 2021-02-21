@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get('/pendidik', function () {
     return view('frontend.profil.pendidik');
 });
+Route::get('/pendidik/details', function () {
+    return view('frontend.profil.pendidik_details');
+});
