@@ -20,6 +20,15 @@ Route::get('/', function () {
 Route::get('/pendidik', function () {
     return view('frontend.profil.pendidik');
 });
+
 Route::get('/pendidik/details', function () {
     return view('frontend.profil.pendidik_details');
+});
+
+Route::get('/legalitas', function () {
+    return view('frontend.profil.legalitas_yayasan');
+});
+
+Route::get('/keuangan', function () {
+    return view('frontend.profil.pengolahan_keuangan');
 });

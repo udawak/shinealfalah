@@ -19,7 +19,7 @@
     </div>
 
     <div id="navigation" class="navigation navigation-landscape">
-        <div class="container position-relative">
+        <div class="container-xl position-relative">
             <div class="row align-items-center">
                 <div class="col-lg-1">
                     <div class="header-logo">
@@ -30,11 +30,11 @@
                     <div class="nav-toggle"></div>
                     <nav class="nav-menus-wrapper">
                         <ul class="nav-menu">
+                            {{-- <li>
+                                <a class="active" href="#">BERANDA</a>
+                            </li> --}}
                             <li>
-                                <a class="active" href="#">Beranda</a>
-                            </li>
-                            <li>
-                                <a href="#">Profil</a>
+                                <a href="#">PROFIL</a>
                                 <ul class="nav-dropdown nav-submenu">
                                     <li><a href="event.html">Legalitas Yayasan</a></li>
                                     <li><a href="event-2.html">Visi dan Misi</a></li>
@@ -44,13 +44,24 @@
                                     <li><a href="#">Pendidik</a></li>
                                     <li><a href="event-details.html">Tenaga Kependidikan</a></li>
                                     <li><a href="event-details.html">Struktur Organisasi</a></li>
-                                    <li><a href="event-details.html">Keuangan</a></li>
+                                    <li>
+                                        <a href="#">Keuangan</a>
+                                        <ul class="nav-dropdown nav-submenu">
+                                            <li>
+
+                                            </li>
+                                            <li>
+
+                                            </li>
+                                        </ul>
+                                    </li>
                                     <li><a href="event-details.html">Makna Logo</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Pendidikan</a>
+                                <a href="#">PONPES PMK</a>
                                 <ul class="nav-dropdown nav-submenu">
+                                    <li><a href="about-us.html">Tentang Pondok</a></li>
                                     <li><a href="about-us.html">MI</a></li>
                                     <li><a href="teachers.html">MTs</a></li>
                                     <li><a href="teacher-details.html">MA</a></li>
@@ -58,18 +69,22 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Kegiatan</a>
+                                <a href="#">KEUANGAN</a>
                                 <ul class="nav-dropdown nav-submenu">
-                                    <li><a href="#">Kegiatan Rutin</a></li>
+                                    <li><a href="#">ZIZWAF</a></li>
+                                    <li><a href="#">Pengelolaan Keuangan Yayasan</a></li>
+                                    <li><a href="#">Usaha Penunjang Biaya Operasional Masa Mendatang</a></li>
+
+                                    {{-- <li><a href="#">Kegiatan Rutin</a></li>
                                     <li><a href="#">Kegiatan Ramadhan</a></li>
-                                    <li><a href="#">Ekstrakulikuler</a></li>
+                                    <li><a href="#">Ekstrakulikuler</a></li> --}}
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Berita</a>
+                                <a href="#">BERITA</a>
                             </li>
                             <li>
-                                <a href="#">Galeri</a>
+                                <a href="#">GALERI</a>
                                 <ul class="nav-dropdown nav-submenu">
                                     <li><a href="#">Galeri Foto</a></li>
                                     <li><a href="#">Galeri Vidio</a></li>
@@ -79,7 +94,7 @@
                                 <a href="#">PPDB</a>
                             </li>
                             <li>
-                                <a href="#">Donasi / Kontak</a>
+                                <a href="#">KONTAK</a>
                                 <ul class="nav-dropdown nav-submenu">
                                     <li><a href="#">Donasi</a></li>
                                     <li><a href="#">Kontak</a></li>
