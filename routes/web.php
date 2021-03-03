@@ -32,3 +32,7 @@ Route::get('/legalitas', function () {
 Route::get('/keuangan', function () {
     return view('frontend.profil.pengolahan_keuangan');
 });
+
+Route::get('/kontak', function () {
+    return view('frontend.kontak');
+});
