@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\PendidikController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -17,13 +19,8 @@ Route::get('/', function () {
     return view('frontend.homepage');
 });
 
-Route::get('/pendidik', function () {
-    return view('frontend.profil.pendidik');
-});
-
-Route::get('/pendidik/details', function () {
-    return view('frontend.profil.pendidik_details');
-});
+Route::get('/pendidik', [PendidikController::class, 'index'])->name('pendidik');
+Route::get('/pendidik/details', [PendidikController::class, 'details']);
 
 Route::get('/legalitas', function () {
     return view('frontend.profil.legalitas_yayasan');

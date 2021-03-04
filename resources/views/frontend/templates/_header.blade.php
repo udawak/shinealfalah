@@ -4,12 +4,12 @@
             <div class="header-top-wrapper d-flex flex-wrap justify-content-sm-between">
                 <div class="header-top-left mt-10">
                     <ul class="header-meta">
-                        <li><a href="mailto://infoedumate@example.com">infoedumate@example.com</a></li>
+                        <li><a href="mailto://ponpespmkgmail.com">ponpespmk@gmail.com</a></li>
                     </ul>
                 </div>
                 <div class="header-top-right mt-10">
                     <div class="header-link">
-                        <a class="notice" href="notice.html">Notice</a>
+                        {{-- <a class="notice" href="#">Daftar Online</a> --}}
                         <a class="login" href="login.html">Login</a>
                         <a class="register" href="register.html">Register</a>
                     </div>
@@ -41,7 +41,7 @@
                                     <li><a href="event-details.html">Sejarah Singkat</a></li>
                                     <li><a href="event-details.html">Sejarah Pembangunan</a></li>
                                     <li><a href="event-details.html">Profil Pimpinan</a></li>
-                                    <li><a href="#">Pendidik</a></li>
+                                    <li><a href="{{ route('pendidik') }}">Pendidik</a></li>
                                     <li><a href="event-details.html">Tenaga Kependidikan</a></li>
                                     <li><a href="event-details.html">Struktur Organisasi</a></li>
                                     <li>
