@@ -10,7 +10,7 @@
                 <div class="header-top-right mt-10">
                     <div class="header-link">
                         {{-- <a class="notice" href="#">Daftar Online</a> --}}
-                        <a class="login" href="login.html">Login</a>
+                        <a class="login" href="https://udawak.com/coming-soon/" target="blank">Login</a>
                         <a class="register" href="register.html">Register</a>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-1">
                     <div class="header-logo">
-                        <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                        <a href="{{ route('homepage') }}"><img src="assets/images/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-9 position-static">
@@ -36,7 +36,7 @@
                             <li>
                                 <a href="#">PROFIL</a>
                                 <ul class="nav-dropdown nav-submenu">
-                                    <li><a href="event.html">Legalitas Yayasan</a></li>
+                                    <li><a href="{{ route('legalitas') }}">Legalitas Yayasan</a></li>
                                     <li><a href="event-2.html">Visi dan Misi</a></li>
                                     <li><a href="event-details.html">Sejarah Singkat</a></li>
                                     <li><a href="event-details.html">Sejarah Pembangunan</a></li>
@@ -72,7 +72,7 @@
                                 <a href="#">KEUANGAN</a>
                                 <ul class="nav-dropdown nav-submenu">
                                     <li><a href="#">ZIZWAF</a></li>
-                                    <li><a href="#">Pengelolaan Keuangan Yayasan</a></li>
+                                    <li><a href="{{ route('keuangan') }}">Pengelolaan Keuangan Yayasan</a></li>
                                     <li><a href="#">Usaha Penunjang Biaya Operasional Masa Mendatang</a></li>
 
                                     {{-- <li><a href="#">Kegiatan Rutin</a></li>
@@ -97,7 +97,7 @@
                                 <a href="#">KONTAK</a>
                                 <ul class="nav-dropdown nav-submenu">
                                     <li><a href="#">Donasi</a></li>
-                                    <li><a href="#">Kontak</a></li>
+                                    <li><a href="{{ route('cp') }}">Kontak</a></li>
                                 </ul>
                             </li>
 

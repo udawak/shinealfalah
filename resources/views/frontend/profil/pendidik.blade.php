@@ -112,7 +112,7 @@
                             </a>
                         </div>
                         <div class="teacher-content">
-                            <h4 class="name"><a href="teacher-details.html">Syukri Yanto, S.Kom</a></h4>
+                            <h4 class="name"><a href="{{ route('details_pendidik') }}">Syukri Yanto, S.Kom</a></h4>
                             <span class="designation">IT Dev</span>
                         </div>
                     </div>

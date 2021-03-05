@@ -17,19 +17,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('frontend.homepage');
-});
+})->name('homepage');
 
 Route::get('/pendidik', [PendidikController::class, 'index'])->name('pendidik');
-Route::get('/pendidik/details', [PendidikController::class, 'details']);
+Route::get('/pendidik/details', [PendidikController::class, 'details'])->name('details_pendidik');
 
-Route::get('/legalitas', function () {
-    return view('frontend.profil.legalitas_yayasan');
-});
+Route::get('legalitas', function () { return view('frontend.profil.legalitas_yayasan'); })->name('legalitas');
 
-Route::get('/keuangan', function () {
-    return view('frontend.profil.pengolahan_keuangan');
-});
+Route::get('/keuangan', function () { return view('frontend.profil.pengolahan_keuangan'); })->name('keuangan');
 
-Route::get('/kontak', function () {
-    return view('frontend.kontak');
-});
+Route::get('/kontak', function () { return view('frontend.kontak'); })->name('cp');
