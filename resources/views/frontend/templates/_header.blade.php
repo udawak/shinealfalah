@@ -91,7 +91,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">PPDB</a>
+                                <a href="{{ route('psb') }}">PPDB</a>
                             </li>
                             <li>
                                 <a href="#">KONTAK</a>
